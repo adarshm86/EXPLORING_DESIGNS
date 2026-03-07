@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import MitsuriModel from "./components/MitsuriModel"
 import { ShaderGradientCanvas, ShaderGradient } from "@shadergradient/react"
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       {/* Navbar */}
       <Navbar />
 
-      {/* Background Gradient */}
+      {/* Background Gradient (UNCHANGED) */}
       <div
         style={{
           position: "fixed",
@@ -63,27 +64,26 @@ function App() {
         </ShaderGradientCanvas>
       </div>
 
-      {/* Website Content */}
-      <div style={{ position: "relative", zIndex: 1 }}>
-
-        <h1 style={{ fontFamily: "Quilon", fontSize: "80px", textAlign: "center", marginTop: "30vh", color:"white" }}>
-          Adarsh
-        </h1>
-
-        <h2 style={{ color: "white", fontSize: "40px", textAlign: "center" }}>
-          My Website
-        </h2>
+      {/* Mitsuri Hero Section */}
+      <div
+        style={{
+          position: "relative",
+          zIndex: 1,
+          width: "100%",
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center"
+        }}
+      >
         <div
-  style={{
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    zIndex: -1,
-    overflow: "hidden"
-  }}
-></div>
+          style={{
+            width: "90vw",
+            height: "100vh"
+          }}
+        >
+          <MitsuriModel />
+        </div>
       </div>
 
     </div>
