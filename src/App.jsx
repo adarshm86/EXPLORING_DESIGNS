@@ -6,10 +6,9 @@ function App() {
   return (
     <div>
 
-      {/* Navbar */}
       <Navbar />
 
-      {/* Background Gradient (UNCHANGED) */}
+      {/* Background Gradient */}
       <div
         style={{
           position: "fixed",
