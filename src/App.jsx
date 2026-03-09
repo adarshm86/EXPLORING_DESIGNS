@@ -6,15 +6,16 @@ function App() {
   return (
     <div>
 
+      {/* Navbar */}
       <Navbar />
 
-      {/* Background Gradient */}
+      {/* Background Gradient (UNCHANGED) */}
       <div
         style={{
           position: "fixed",
           inset: 0,
           width: "100vw",
-          height: "100vh",
+          height: "110vh",
           zIndex: -1
         }}
       >
@@ -62,7 +63,7 @@ function App() {
           />
         </ShaderGradientCanvas>
       </div>
-
+        
       {/* Mitsuri Hero Section */}
       <div
         style={{

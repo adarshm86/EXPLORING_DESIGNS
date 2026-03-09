@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Quilon', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,6 +19,7 @@
 body {
   min-height: 100vh;
 }
+
 .glass-nav {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 16px;
@@ -28,4 +29,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
 
   padding: 12px 28px;
+}
+.title-font {
+  font-family: 'Quilon', sans-serif;
 }

@@ -8,8 +8,8 @@ function Mitsuri() {
   return (
     <primitive
       object={scene}
-      scale={17}
-      position={[0, -5.5, 0]}
+      scale={16}
+      position={[2, -5, 0]}
     />
   )
 }
@@ -18,7 +18,7 @@ export default function MitsuriModel() {
 
   return (
     <Canvas
-      camera={{ position: [0, 1, 6], fov: 50 }}
+      camera={{ position: [1.5, 2, 6], fov: 50 }}
       style={{ width: "100%", height: "100%" }}
     >
 
@@ -33,7 +33,7 @@ export default function MitsuriModel() {
       <OrbitControls
         enableZoom={false}
         autoRotate
-        autoRotateSpeed={1}
+        autoRotateSpeed={0}
       />
 
     </Canvas>
