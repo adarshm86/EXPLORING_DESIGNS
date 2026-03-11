@@ -11,7 +11,7 @@ function Navbar() {
       <div className="glass-nav">
         <span style={{marginRight:"20px"}}>Home</span>
         <span style={{marginRight:"20px"}}>Projects</span>
-        <span>About</span>
+        <a href="#about" className="nav-link">About</a>
       </div>
 
     </div>
